@@ -4,8 +4,13 @@ import {
     DiJsBadge,
     DiReact,
     DiSass,
-    DiBootstrap
+    DiBootstrap,
+    DiGithubBadge
 } from "react-icons/di"
+
+import {
+    SiTypescript
+} from "react-icons/si"
 
 import "../styles/components/technologiescontainer.sass"
 
@@ -16,6 +21,8 @@ const technologies = [
     { id:"react", name: "React", icon: <DiReact /> },
     { id:"sass", name: "Sass", icon: <DiSass /> },
     { id:"bootstrap", name: "Bootstrap", icon: <DiBootstrap /> },
+    { id:"github", name: "Github", icon: <DiGithubBadge /> },
+    { id:"typescript", name: "Typescript", icon: <SiTypescript /> },
 ]
 
 const TechnologiesContainer = () => {
